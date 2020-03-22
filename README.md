@@ -69,7 +69,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 ### app Structure
-
+```js
 `src`
 |_`api`
     |__`courseDetails.json` sample of course details response 
@@ -91,6 +91,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 `App.js` This is the file for App Component. App Component is the main component in React
 `index.js` This is the javascript file corresponding to index.html. This file has the following line of code which is very significant. ReactDOM.render(<App />, document.getElementById(‘root’))
 `index.scss` The style file corresponding to index.js
-
-
-
+```
