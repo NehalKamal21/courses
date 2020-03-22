@@ -88,7 +88,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
     |_`classroom.js` classromm route
     |_`courseDetails.js` course details route
     |_`homePage.js` list of courses route
-`App.js` This is the file for App Component. App Component is the main component in React
-`index.js` This is the javascript file corresponding to index.html. This file has the following line of code which is very significant. ReactDOM.render(<App />, document.getElementById(‘root’))
-`index.scss` The style file corresponding to index.js
+|_`App.js` This is the file for App Component. App Component is the main component in React
+|_`index.js` This is the javascript file corresponding to index.html. This file has the following line of code which is very significant. ReactDOM.render(<App />, document.getElementById(‘root’))
+|_`index.scss` The style file corresponding to index.js
 ```
