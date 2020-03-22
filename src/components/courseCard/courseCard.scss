@@ -1,0 +1,15 @@
+.ant-card {
+
+    &.ant-card-bordered {
+        width: 300px;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .ant-avatar {
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "count": 7,
+    "results": [
+        {
+            "id": 111,
+            "title": "Data Analysis",
+            "instructor": {
+                "id": 4387876,
+                "name": "Rob Percival"
+            },
+            "image": "https://miro.medium.com/max/1200/1*PKXC0FeXQc5LVmqhJ8HnVg.png",
+            "enrolled": true,
+            "description": "Data analysis is a process of inspecting, cleansing, transforming and modeling data with the goal of discovering useful information, informing conclusion and supporting decision-making"
+        },
+        {
+            "id": 112,
+            "title": "Deep Learning",
+            "instructor": {
+                "id": 5487312,
+                "name": "Stephen Grider"
+            },
+            "image": "https://learning-systems.org/assets/fotolia_deeplearning_event.jpg",
+            "enrolled": false,
+            "description": "Deep learning is part of a broader family of machine learning methods based on artificial neural networks with representation learning. Learning can be supervised, semi-supervised or unsupervised."
+        },
+        {
+            "id": 113,
+            "title": "Introduction to programming",
+            "instructor": {
+                "id": 13952972,
+                "name": "Maximilian Schwarzmüller"
+            },
+            "image": "https://www.ed2go.com/binaries/content/gallery/ed2go/products/17160.jpg",
+            "enrolled": false,
+            "description": "Learn the basics of programming through HTML, CSS, and Python. Explore possible programming paths with our final project selection. Get confident in your ability to think and problem-solve like a programmer. Be primed and ready for our career-ready programs after mastering these projects."
+        },
+        {
+            "id": 114,
+            "title": "The Complete Node.js Developer Course",
+            "instructor": {
+                "id": 7231684,
+                "name": "Andrew Mead"
+            },
+            "image": "https://nextsoftware.io/files/images/logos/main/nodejs-logo.png",
+            "enrolled": false,
+            "description": "Learning Node.js is a great way to get into backend web development, or expand your fullstack development practice. With Udemy’s hands-on Node.js courses, you can learn the concepts and applications of this wildly useful JavaScript runtime."
+        },
+        {
+            "id": 115,
+            "title": "React Native",
+            "instructor": {
+                "id": 31926668,
+                "name": "Academind"
+            },
+            "image": "https://static.arageek.com/wp-content/uploads/2019/01/React-Native.jpg",
+            "enrolled": false,
+            "description": "React Native is an open-source mobile application framework created by Facebook. It is used to develop applications for Android, iOS, Web and UWP by enabling developers to use React along with native platform capabilities."
+        },
+        {
+            "id": 116,
+            "title": "Web Development",
+            "instructor": {
+                "id": 964946,
+                "name": "Bradley Berger"
+            },
+            "image": "https://i.udemycdn.com/course/240x135/65330_5f74_10.jpg",
+            "enrolled": false,
+            "description": "Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web-based internet applications, electronic businesses, and social network services."
+        },
+        {
+            "id": 117,
+            "title": "Digital Marketing",
+            "instructor": {
+                "id": 746435,
+                "name": "123Greetings"
+            },
+            "image": "https://multichannelmerchant.com/wp-content/uploads/2018/07/digitalmarketing850.jpg",
+            "enrolled": false,
+            "description": "Digital marketing is the component of marketing that utilizes internet and online based digital technologies such as desktop computers, mobile phones and other digital media and platforms to promote products and services."
+        }
+    ]
+}

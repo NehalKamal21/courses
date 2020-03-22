@@ -1,0 +1,95 @@
+{
+    "title": "Data Analysis",
+    "id": "111",
+    "image": "https://miro.medium.com/max/1200/1*PKXC0FeXQc5LVmqhJ8HnVg.png",
+    "enrolled": true,
+    "description": "Data analysis is a process of inspecting, cleansing, transforming and modeling data with the goal of discovering useful information, informing conclusion and supporting decision-making",
+    "instructor": {
+        "id": 4387876,
+        "name": "Rob Percival"
+    },
+    "similar": {
+        "id": "112",
+        "title": "Deep Learning",
+        "image": "https://learning-systems.org/assets/fotolia_deeplearning_event.jpg",
+        "enrolled": false,
+        "description": "Deep learning is part of a broader family of machine learning methods based on artificial neural networks with representation learning. Learning can be supervised, semi-supervised or unsupervised."
+    },
+    "content": [
+        {
+            "id": 0,
+            "title": "lorem ipsum",
+            "completed": true
+        },
+        {
+            "id": 1,
+            "title": "lorem ipsum",
+            "completed": true
+        },
+        {
+            "id": 2,
+            "title": "lorem ipsum",
+            "completed": true
+        },
+        {
+            "id": 3,
+            "title": "lorem ipsum",
+            "completed": true
+        },
+        {
+            "id": 4,
+            "title": "lorem ipsum",
+            "completed": false
+        },
+        {
+            "id": 5,
+            "title": "lorem ipsum",
+            "completed": false
+        },
+        {
+            "id": 6,
+            "title": "lorem ipsum",
+            "completed": false
+        },
+        {
+            "id": 7,
+            "title": "lorem ipsum",
+            "completed": false
+        },
+        {
+            "id": 8,
+            "title": "lorem ipsum",
+            "completed": false
+        },
+        {
+            "id": 9,
+            "title": "lorem ipsum",
+            "completed": false
+        },
+        {
+            "id": 10,
+            "title": "lorem ipsum",
+            "completed": false
+        },
+        {
+            "id": 11,
+            "title": "lorem ipsum",
+            "completed": false
+        },
+        {
+            "id": 12,
+            "title": "lorem ipsum",
+            "completed": false
+        },
+        {
+            "id": 13,
+            "title": "lorem ipsum",
+            "completed": false
+        },
+        {
+            "id": 14,
+            "title": "lorem ipsum",
+            "completed": false
+        }
+    ]
+}

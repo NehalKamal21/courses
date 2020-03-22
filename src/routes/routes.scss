@@ -1,0 +1,51 @@
+.courses-containter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.course-details-container {
+    margin: 20px 40px;
+
+    .enrolled {
+        color: green;
+    }
+
+    .description {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            max-width: 500px;
+        }
+    }
+
+    .details-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .list-container {
+            min-width: 300px;
+        }
+
+        .similar-container {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+.classroom-container {
+    .note {
+        position: fixed;
+        top: 65px;
+        right: 10px;
+        width: 150px;
+        // height: 100px;
+        background: white;
+        border-radius: 15px;
+        padding: 15px;
+    }
+}

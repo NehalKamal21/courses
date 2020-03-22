@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React, { Suspense, lazy } from 'react';
+import Header from "./components/header/header";
+import { Spin } from "antd";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const HomePage = lazy(() => import('./routes/homePage'));
+const CourseDetails = lazy(() => import('./routes/courseDetails'));
+const Classroom = lazy(() => import('./routes/classroom'));
 
+const App = () => (
+  <Router>
+    <Header />
+    <Suspense fallback={<Spin size="large" className="spinner" />}>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/course/:id" component={CourseDetails} />
+        <Route exact path='/course/:id/classroom' component={Classroom} />
+      </Switch>
+    </Suspense>
+  </Router>
+);
 export default App;

@@ -66,3 +66,31 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### app Structure
+
+`src`
+|_`api`
+    |__`courseDetails.json` sample of course details response 
+    |__`courses.json` sample of courses response
+|_`components`
+    |__`courseCard`
+        |_`courseCard.js` component for course card
+        |_`courseCard.scss` style corresponding ti course card
+    |_`courseDetails`
+        |_`classesList.js` list of course classes 
+        |_`completed.js` progress of completed classes
+    |_`header`
+        |_`header.js` global header component
+        |_`header.scss` style corresponding to header component
+|_`routes`
+    |_`classroom.js` classromm route
+    |_`courseDetails.js` course details route
+    |_`homePage.js` list of courses route
+`App.js` This is the file for App Component. App Component is the main component in React
+`index.js` This is the javascript file corresponding to index.html. This file has the following line of code which is very significant. ReactDOM.render(<App />, document.getElementById(‘root’))
+`index.scss` The style file corresponding to index.js
+
+
+
